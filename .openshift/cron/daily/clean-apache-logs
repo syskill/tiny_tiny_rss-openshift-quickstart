@@ -1,2 +1,0 @@
-#!/bin/sh
-find "${OPENSHIFT_PHP_DIR}/logs" \( -name error_log-\* -o -name access_log-\* \) -mtime +5 -exec rm '{}' +
